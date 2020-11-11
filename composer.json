@@ -16,7 +16,7 @@
     },
     "type": "project",
     "license": "MIT",
-
+    "minimum-stability": "dev",
     "extra": {
         "installer-paths" : {
             "libraries/{$name}": ["type:library"]
