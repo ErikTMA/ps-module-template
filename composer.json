@@ -1,0 +1,25 @@
+{
+    "name": "etma/ps-module-template",
+    "description": "Importer module for PrestaShop",
+    "authors": [
+        {
+            "name": "Erik Andersen",
+            "email": "etma@etma.dk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "project",
+    "license": "MIT",
+
+    "extra": {
+        "installer-paths" : {
+            "libraries/{$name}": ["type:library"]
+        }
+    }
+}
