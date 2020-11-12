@@ -1,0 +1,8 @@
+{
+    "packages": {
+        "eriktma/ps-master-template": {
+            "dev-master": { @composer.json },
+            "0.1": { @composer.json }
+        }
+    }
+}
