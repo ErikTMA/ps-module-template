@@ -1,6 +1,6 @@
 {
     "name": "etma/ps-module-template",
-    "description": "Importer module for PrestaShop",
+    "description": "Module template for PrestaShop 1.7",
     "authors": [
         {
             "name": "Erik Andersen",
