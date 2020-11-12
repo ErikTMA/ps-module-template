@@ -1,5 +1,4 @@
-<?php
-/**
+{*
 * 2007-2020 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -22,13 +21,28 @@
 *  @copyright 2007-2020 PrestaShop SA
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*/
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: ' . gmdate('D, d M Y H:i:s') . ' GMT');
+*}
 
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
+<div class="panel">
+	<h3><i class="icon icon-credit-card"></i> {l s='my module display name' mod='mymodulename'}</h3>
+	<p>
+		<strong>{l s='Here is my new generic module!' mod='mymodulename'}</strong><br />
+		{l s='Thanks to PrestaShop, now I have a great module.' mod='mymodulename'}<br />
+		{l s='I can configure it using the following configuration form.' mod='mymodulename'}
+	</p>
+	<br />
+	<p>
+		{l s='This module will boost your sales!' mod='mymodulename'}
+	</p>
+</div>
 
-header('Location: ../');
-exit;
+<div class="panel">
+	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='mymodulename'}</h3>
+	<p>
+		&raquo; {l s='You can get a PDF documentation to configure this module' mod='mymodulename'} :
+		<ul>
+			<li><a href="#" target="_blank">{l s='English' mod='mymodulename'}</a></li>
+			<li><a href="#" target="_blank">{l s='French' mod='mymodulename'}</a></li>
+		</ul>
+	</p>
+</div>
